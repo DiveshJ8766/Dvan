@@ -28,8 +28,8 @@ function RequestSend() {
             </h3>
           </h5>
           <p className="text-white text-lg font-bold mb-4">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Once your request gets accepted by issuer you will get email for
+            your certificate.
           </p>
           <div className="flex justify-center items-center space-x-6">
             <Link
