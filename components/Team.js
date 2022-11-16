@@ -16,7 +16,7 @@ function Team() {
           <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-white-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">
             <blockquote className="max-w-2xl mx-auto mb-2 lg:mb-4 text-transparent font-bold text-xl bg-clip-text bg-white">
               <h3 className="text-lg font-semibold">Developer</h3>
-              <p className="my-4 font-light">Created All Module of Project "</p>
+              <p className="my-4 font-light">Created All Module of Project.</p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3 ">
               <Image
@@ -34,13 +34,13 @@ function Team() {
             <blockquote className="max-w-2xl mx-auto mb-2 lg:mb-4 text-transparent font-bold text-xl bg-clip-text bg-white">
               <h3 className="text-lg font-semibold">Documentarian</h3>
               <p className="my-4 font-light">
-                Managed All Documentation of Project "
+                Managed All Documentation of Project.
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <Image
                 className="rounded-full w-28 h-28"
-                src={vaishnaviProfile}
+                src={diveshProfile}
                 alt="profile picture"
               />
               <div className="space-y-0.5 font-bold text-left text-transparent text-xl bg-clip-text bg-white">
@@ -53,7 +53,7 @@ function Team() {
             <blockquote className="max-w-2xl mx-auto mb-2 lg:mb-4 text-transparent font-bold text-xl bg-clip-text bg-white">
               <h3 className="text-lg font-semibold">Reseacher</h3>
               <p className="my-4 font-light">
-                Searched All documents needed for Project "
+                Searched All documents needed for Project
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
@@ -71,7 +71,7 @@ function Team() {
           <figure className="flex flex-col items-center justify-center p-8 text-center border-gray-200 rounded-b-lg md:rounded-br-lg">
             <blockquote className="max-w-2xl mx-auto mb-2 lg:mb-4 text-transparent font-bold text-xl bg-clip-text bg-white">
               <h3 className="text-lg font-semibold">Tester</h3>
-              <p className="my-4 font-light">Tested Module of Project "</p>
+              <p className="my-4 font-light">Tested Module of Project</p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
               <Image
