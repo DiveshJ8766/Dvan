@@ -40,7 +40,7 @@ function Team() {
             <figcaption className="flex items-center justify-center space-x-3">
               <Image
                 className="rounded-full w-28 h-28"
-                src={diveshProfile}
+                src={vaishnaviProfile}
                 alt="profile picture"
               />
               <div className="space-y-0.5 font-bold text-left text-transparent text-xl bg-clip-text bg-white">
