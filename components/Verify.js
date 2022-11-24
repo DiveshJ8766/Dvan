@@ -1,21 +1,31 @@
 import React from "react";
+import Link from "next/link";
 
 function Verify() {
   return (
-    <div className="max-w-xs p-6 bg-black flex justify-center flex-col items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 mb-5">
-      <div className="space-y-3 flex justify-center flex-col">
-        <div className="text-black">
-          <input type="text" placeholder="Enter id of certificate to verify" />
+    <div className="py-8 px-4 mx-auto max-w-screen-md">
+      <form className="space-y-8">
+        <div>
+          <label for="hashvalue" className="block mb-2 text-md font-bold">
+            Enter Hash Value
+          </label>
+          <input
+            type="text"
+            id="hashvalue"
+            className="block p-3 w-full bg-white rounded-xl bg-opacity-25 backdrop-filter backdrop-blur-sm text-white focus-within:outline-none select-none placeholder-white"
+            required
+          />
         </div>
-        <div className="flex justify-center">
-          <button
-            type="submit"
-            className="py-2 px-5 text-lg font-light text-center text-white rounded-lg bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400"
+
+        <div className="mt-20">
+          <Link
+            href="/"
+            className="py-3 px-4 text-md text-center text-white bg-white rounded-xl bg-opacity-30 backdrop-filter backdrop-blur-sm"
           >
-            Verify
-          </button>
+            Verify Certificate
+          </Link>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
