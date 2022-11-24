@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import { DvanContext } from "../context/DvanContext";
+import { DvanContext1 } from "../context/DvanContext";
 import Student from "../components/Student";
 import metamaskLogo from "../assests/metamask.png";
 import errorImg from "../assests/error.png";
@@ -13,7 +13,7 @@ const style = {
 };
 
 function student() {
-  const { appStatus, connectWallet } = useContext(DvanContext);
+  const { appStatus, connectWallet } = useContext(DvanContext1);
 
   const app = (status = appStatus) => {
     switch (status) {
