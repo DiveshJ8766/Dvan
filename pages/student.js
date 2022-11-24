@@ -1,9 +1,9 @@
 import React from "react";
-import useContext from "react";
-import DvanContext from "../context/DvanContext";
+import { useContext } from "react";
+import { DvanContext } from "../context/DvanContext";
 import Student from "../components/Student";
-import metamaskLogo from "../assets/metamask.png";
-import errorImg from "../assets/error.png";
+import metamaskLogo from "../assests/metamask.png";
+import errorImg from "../assests/error.png";
 import Image from "next/image";
 
 const style = {
