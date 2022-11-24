@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-export const DvanContext = createContext();
+export const DvanContext1 = createContext();
 
 export const DvanProvider = ({ children }) => {
   const [appStatus, setAppStatus] = useState("");
@@ -59,7 +59,7 @@ export const DvanProvider = ({ children }) => {
   };
 
   return (
-    <DvanContext.Provider
+    <DvanContext1.Provider
       value={{
         appStatus,
         currentAccount,
@@ -67,6 +67,6 @@ export const DvanProvider = ({ children }) => {
       }}
     >
       {children}
-    </DvanContext.Provider>
+    </DvanContext1.Provider>
   );
 };
