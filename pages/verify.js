@@ -3,7 +3,7 @@ import Verify from "../components/Verify";
 
 function verify() {
   return (
-    <div className="flex h-screen justify-center items-center">
+    <div>
       <Verify />
     </div>
   );
